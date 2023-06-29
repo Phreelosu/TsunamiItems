@@ -1,8 +1,7 @@
 
 #Changelog
 ---
-1.0.0
-  - Void Clam is fixed up.
+0.0.2
   - Fixed Doctor's Bag sometimes dividing instead of multiplying.
   - Tactician's Manual README.md fix.
   - Added CHANGELOG.md.

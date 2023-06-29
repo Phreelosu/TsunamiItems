@@ -13,7 +13,7 @@ using UnityEngine;
 
 namespace TsunamiItemCore {
 
-	[BepInPlugin("com.Phreel.TsunamiItemsRevived", "TsunamiItems", "1.0.0")]
+	[BepInPlugin("com.Phreel.TsunamiItemsRevived", "TsunamiItems", "0.0.2")]
 	[BepInDependency("com.bepis.r2api")]
 	[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
 	[R2APISubmoduleDependency(/*new string[] { "ItemAPI", "LanguageAPI", "ArtifactAPI", "EliteAPI", "RecalculateStatsAPI", "BuffAPI" })*/nameof(ItemAPI), nameof(LanguageAPI))]
@@ -23,7 +23,7 @@ namespace TsunamiItemCore {
 
 		public const string ModName = "TsunamiItemsRevived";
 
-		public const string ModVer = "1.0.0";
+		public const string ModVer = "0.0.2";
 
 		public static AssetBundle MainAssets;
 

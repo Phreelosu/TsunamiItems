@@ -2,7 +2,7 @@
     "name": "Tsunami Items",
     "version_number": "0.0.2",
     "website_url": "",
-    "description": "Literally just a port of Tsunami items for SotV, additional fixes!",
+    "description": "Literally just a port of Tsunami items for SotV, Doctor's Bag fix!",
     "dependencies":[	
 	"bbepis-BepInExPack-5.4.2112",
     "tristanmcpherson-R2API-5.0.3"

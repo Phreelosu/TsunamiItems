@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using BepInEx.Configuration;
 using R2API;
@@ -131,4 +131,4 @@ namespace TsunamiItemCore.Equipment {
 			return true;
 		}
 	}
-}
+}*/
