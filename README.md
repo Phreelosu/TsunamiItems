@@ -18,27 +18,14 @@
 | Sandwich For Ash | ![](https://i.imgur.com/fySAxPi.png) | Killing an enemy will grant you a stacking buff. Upon using your `Special`, `heal` for `4`` (+4 per stack)` `health` multiplied by `every stack` of the buff you have. | Uncommon |
 | Scout's Rifle | ![](https://i.imgur.com/EHKOjnV.png) | Entering a new stage will boost your `speed` by `30%` for `20`` (+5 per stack)` seconds. | Common |
 | Suppressor | ![](https://i.imgur.com/NDUzGnS.png) | Upon killing an `elite` or `boss`, increase `regen`, `movement speed`, and `damage` by 45% for 5 `(+2.5 per stack)` seconds for elites and 10 `(+5 per stack)`. | Uncommon |
-| Tactician's Manual | ![](https://i.imgur.com/loBOrrA.pn) | Your `next strike` deals `20%` `(+20% per stack)` more `damage`. Has a cooldown of `10` seconds. | Common |
+| Tactician's Manual | ![](https://i.imgur.com/loBOrrA.png) | Your `next strike` deals `20%` `(+20% per stack)` more `damage`. Has a cooldown of `10` seconds. | Common |
 
 
 
 ## Known Issues
-- Void Clam is disabled for the time being
 - No item displays
 - Pickup models may be a bit too large sized
 
 
 ## Credits 
 - Ruxbieno (for the awesome mod and giving me permission to upload)
-
-## Changelog
-
-`0.0.1`
-- Ported to SotV
-- Temporarily disabled Void Clam, can't be bothered to fix, personally don't like the equipment.
-- Deck of Cards buff pool was updated.
-- Obsidian Shard works with Ignition Tank
-- Geiger Counter now properly counts charges, primary skill wont count towards it.
-- Doctor's Bag can actually crit heal now
-- Red Skull's buff was removed, the item was rewritten partially.
-- Tactician's Manual and Berzerker's Kneepad cooldowns are actually cooldowns, cannot be removed via Blast Shower anymore.

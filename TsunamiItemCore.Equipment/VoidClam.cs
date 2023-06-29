@@ -1,4 +1,4 @@
-/*using System;
+using System;
 using System.Collections.Generic;
 using BepInEx.Configuration;
 using R2API;
@@ -91,7 +91,7 @@ namespace TsunamiItemCore.Equipment {
 					PickupDropletController.CreatePickupDroplet(availableTier2DropList[rng.RangeInt(0, availableTier2DropList.Count)], slot.characterBody.transform.position, new Vector3(UnityEngine.Random.Range(-5f, 5f), 20f, UnityEngine.Random.Range(-5f, 5f)));
 					PickupDropletController.CreatePickupDroplet(availableTier2DropList[rng.RangeInt(0, availableTier2DropList.Count)], slot.characterBody.transform.position, new Vector3(UnityEngine.Random.Range(-5f, 5f), 20f, UnityEngine.Random.Range(-5f, 5f)));
 					PickupDropletController.CreatePickupDroplet(PickupCatalog.FindPickupIndex(GetRandomItem(sickitemList).itemIndex), slot.characterBody.transform.position, new Vector3(0f, 0f, 0f));
-					slot.characterBody.inventory.SetEquipmentIndex(EquipmentIndex.None);
+					slot.characterBody.inventory.SetEquipment(EquipmentState.empty, slot.activeEquipmentSlot);
 				}
 				else
 				{
@@ -123,13 +123,12 @@ namespace TsunamiItemCore.Equipment {
 						blastAttack.Fire();
 						blastAttack.Fire();
 						blastAttack.Fire();
-						slot.characterBody.inventory.SetEquipmentIndex(EquipmentIndex.None);
+						slot.characterBody.inventory.SetEquipment(EquipmentState.empty, slot.activeEquipmentSlot);
 					}
 				}
 			}
-			slot.characterBody.inventory.SetEquipmentIndex(EquipmentIndex.None);
+			slot.characterBody.inventory.SetEquipment(EquipmentState.empty, slot.activeEquipmentSlot);
 			return true;
 		}
 	}
 }
-*/

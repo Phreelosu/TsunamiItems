@@ -1,8 +1,8 @@
 {
     "name": "Tsunami Items",
-    "version_number": "0.0.1",
+    "version_number": "0.0.2",
     "website_url": "",
-    "description": "Literally just a port of Tsunami items for SotV",
+    "description": "Literally just a port of Tsunami items for SotV, additional fixes!",
     "dependencies":[	
 	"bbepis-BepInExPack-5.4.2112",
     "tristanmcpherson-R2API-5.0.3"

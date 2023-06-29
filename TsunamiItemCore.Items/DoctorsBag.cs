@@ -68,7 +68,7 @@ namespace TsunamiItemCore.Items {
 			{
                 if (Util.CheckRoll(10f * (float)count, self.body.master))
                 {
-					amount *= 2f;
+					amount = amount * 2f;
                 }
 			}
 			return orig(self, amount, procChainMask, nonRegen);
